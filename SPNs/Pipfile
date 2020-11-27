@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+numpy = "*"
+spflow = "0.0.41"
+tensorflow = "~=1.5"
+tensorflow-gpu = "~=1.5"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7.5"
