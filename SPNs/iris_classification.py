@@ -23,7 +23,7 @@ context = Context(parametric_types=[Gaussian, Gaussian, Gaussian, Gaussian, Cate
 spn_classification = learn_classifier(train_data_with_labels, context, learn_parametric, 4)
 
 # Plot SPN
-plot_spn(spn_classification, 'iris_spn.png')
+plot_spn(spn_classification, 'images/iris_spn.png')
 
 # Predict
 true_values = np.array(test_data_with_labels[:,-1])

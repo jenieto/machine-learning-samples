@@ -25,7 +25,7 @@ context = Context(parametric_types=parametric_types).add_domains(train_data_with
 spn = learn_classifier(train_data_with_labels, context, learn_parametric, target_position)
 
 # Plot SPN
-# plot_spn(spn, 'california_housing_spn.png')
+# plot_spn(spn, 'images/california_housing_spn.png')
 
 # Predict
 true_values = np.array(test_data_with_labels[:,-1])

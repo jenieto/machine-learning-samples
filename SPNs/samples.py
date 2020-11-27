@@ -24,7 +24,7 @@ class SPN:
     assign_ids(self.spn)
     rebuild_scopes_bottom_up(self.spn)
 
-  def plot(self, name='spn.png'):
+  def plot(self, name='images/spn.png'):
     plot_spn(self.spn, name)
 
   def to_text(self):
